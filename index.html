@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Página institucional de la Escuela de Educación Secundaria Técnica N°5 &quot;Galileo Galilei&quot;: historia, oferta educativa y datos de contacto." />
+  <title>EEST N°5 “Galileo Galilei” – Página Institucional</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <script src="script.js"></script>
+  <header role="banner">
+    <div class="container topbar">
+      <div class="brand">
+        <div class="brand-logo" aria-hidden="true">
+          <img src="logo.jpg" alt="Isologo institucional" />
+        </div>
+        <div>
+          <h1>Escuela de Educación Secundaria Técnica N°5 “Galileo Galilei”</h1>
+          <small class="lema">“Formando técnicos para el futuro”</small>
+        </div>
+      </div>
+
+      <button class="menu-toggle" aria-expanded="false" aria-controls="menu" onclick="toggleMenu()">Menú</button>
+      <nav aria-label="Navegación principal">
+        <ul id="menu">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#historia">Historia</a></li>
+          <li><a href="#oferta">Oferta educativa</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+  </header>
+
+  <main id="inicio">
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="tit-hero">
+      <div class="container hero-wrap">
+        <div class="hero-card">
+          <h2 id="tit-hero">Bienvenidos a la EEST N°5 “Galileo Galilei”</h2>
+          <p class="muted">Institución pública con orientación técnico-profesional. Acompañamos a nuestros estudiantes en trayectorias significativas, vinculadas al mundo del trabajo, la ciencia y la tecnología.</p>
+          <p>
+            <a class="btn" href="#oferta">Ver oferta educativa</a>
+          </p>
+        </div>
+        <figure>
+          <img src="patio.jpg" alt="Fachada del edificio escolar" />
+          <img src=" patiointerno.jpg" alt="Fachada del edificio escolar" />
+        </figure>
+      </div>
+    </section>
+    <section id="historia" aria-labelledby="tit-historia">
+      <div class="container grid-2">
+        <article class="card">
+          <h3 id="tit-historia" class="section-title">Breve reseña histórica</h3>
+          <p>
+           La Escuela nació en 1985 por una necesidad en la zona, ante una mayor demanda de parte del alumnado por ingresar a la Educación Técnica y la falta de vacantes en las escuelas del partido. Así, por medio de la resolución N°674 del ya desaparecido Consejo Nacional de Educación Técnica (CONET) nació nuestra Escuela, con el nombre de Escuela de Educación Técnica N°3 (ENET N°3). Formada en un predio que no estaba pensado para ser Escuela, contó en un principio con 3 aulas, una oficina de secretaría, sala de profesores y 2 baños. Otras escuelas donaron los pizarrones, algunos elementos didácticos y bancos sobrantes. Los primeros alumnos fueron aquellos que no resultaron favorecidos en los sorteos de las escuelas técnicas de la zona, aceptaron el desafío de estudiar mientras construían su propia escuela, siendo también partícipes las familias. Algunos de los padres inclusive han fundado la Cooperadora. De a poco y entre todos, se fue logrando construir un ambiente adecuado para el estudio «Para nosotros la escuela es nuestra segunda casa porque la construimos nosotros también (.) era clases y construcción al mismo tiempo» Cuenta uno de los ex alumnos, que hoy forma parte del Cuerpo Docente. En la primera reunión de personal el Director fue muy claro: «No podemos ofrecer un lindo edificio, ni un gran equipamiento pero SI podemos ofrecer CALIDAD». Durante 1986 el director propuso a los docentes capacitarse en computación en la Universidad Tecnológica Nacional y surge esa especialidad para la escuela. Buscando siempre la calidad en la enseñanza, la capacitación constante y la posibilidad de brindar nuevas opciones en educación, se fue transformando ese galpón, entre escombros y pozos, en la Escuela que tenemos hoy, con instalaciones apropiadas y equipamiento de última tecnología.
+          </p>
+          <p class="muted">El legado de nuestro nombre nos inspira: curiosidad, pensamiento crítico y compromiso con el conocimiento al servicio de la sociedad.</p>
+        </article>
+        <aside class="card" aria-label="Información destacada">
+          <h3 class="section-title">Nuestra identidad</h3>
+          <ul>
+            <li>Tipo de gestión: Pública estatal</li>
+            <li>Niveles: Ciclo Básico Técnico y Ciclo Superior Técnico</li>
+            <li>Modalidad: Educación Técnico Profesional (ETP)</li>
+            <li>Turnos: Mañana y Tarde y Vespertino</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="oferta" aria-labelledby="tit-oferta">
+      <div class="container">
+        <h3 id="tit-oferta" class="section-title">Oferta educativa</h3>
+        <div class="grid-2">
+          <article class="card programa">
+            <div>
+              <h3>Técnicatura en Programación</h3>
+              <p class="muted">Formación en Desarrolo de software multiplataforma, implementacion y gestion de bases de datos, diseño y desarrollo de interfaces de usuario, mantenimiento y depuracion de codigo, Seguridad informatica y ciberseguridad, Analisis y resolucion de problemas algoritmicos, Tecnicas de aplicaciones de IA, automatizacion y vision artificial.</p>
+              <p>
+                <span class="chip">7 años</span>
+                <span class="chip">Título técnico</span>
+              </p>
+            </div>
+          </article>
+          <article class="card programa">
+            <div>
+              <h3>Técnicatura en Multimedios</h3>
+              <p class="muted">Formacion en Diseño Grafico, Tecnologia del Sonido, Arte Digital, Diseño Web, Marketing de Servicios, Diseño Escenografico, Comunicacion, Realizacion Audiovisual, Grafico Editorial, Animacion.</p>
+              <p>
+                <span class="chip">7 años</span>
+                <span class="chip">Título técnico</span>
+              </p>
+            </div>
+          </article>
+          <article class="card programa">
+            <div>
+              <h3>Técnicatura en Informática </h3>
+              <p class="muted">Formacion en Sistemas Operativos, Laboratorio de Hardware, Instalacion y Reparacion de Redes, Reparacion de computadoras, Aplicaciones Ofimanticas, Seguridad informatica, Base de datos, Sistemas digitales, Teleinformatica, Aplicaciones especificas. </p>
+              <p>
+                <span class="chip">7 años</span>
+                <span class="chip">Título técnico</span>
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="galeria" aria-labelledby="tit-galeria">
+      <div class="container">
+        <h3 id="tit-galeria" class="section-title">Imágenes de la institución</h3>
+        <div class="gallery" role="list">
+          <figure role="listitem">
+            <img src="208.jpg" alt="aulas " />
+            <img src="biblioteca.jpeg" alt="aulas " />
+            <img src="equi2.jpg" alt="aulas " />
+            <figcaption class="muted">Aulas</figcaption>
+          </figure>
+          <figure role="listitem">
+           
+            <img src="equi3.jpg" alt="Herramientas de taller" />
+            <img src="equi5.jpeg" alt="Equipos " />
+            <img src="equi6.jpg" alt="Equipos " />
+            
+            <figcaption class="muted">Equipamiento</figcaption>
+          </figure>
+          <figure role="listitem">
+            <img src="pasillo primer piso.jpg" alt="Pasillos y espacios comunes de la escuela" />
+            <img src="torneo.jpg" alt=" Pasillos y espacios comunes de la escuela" />
+            <img src="patio lleno.jpg" alt=" Pasillos y espacios comunes de la escuela" />
+            
+            <figcaption class="muted">Vida escolar</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section id="contacto" aria-labelledby="tit-contacto">
+      <div class="container contact">
+        <article class="card">
+          <h3 id="tit-contacto" class="section-title">Datos de contacto</h3>
+          <address>
+            <ul>
+              <li><strong>Dirección:</strong> Av. Eva Perón 121 Nº 4541, B1650DQU Villa Juan Martín de Pueyrredón, Provincia de Buenos Aires</li>
+              <li><strong>Teléfono:</strong> <a href="tel:6080-2589"> 6080–2589</a> </li>
+              <li><strong>Correo:</strong> <a href="mail:info@galileo.edu.ar">info@galileo.edu.ar</a> </li>
+              <li><strong>Horarios de atención:</strong> Lunes a Viernes, 8:00–21:00</li>
+
+            </ul>
+          </address>
+          <p class="muted">Para inscripciones, equivalencias o certificados, comunicarse con Preceptoría y/o Secretaría Académica.</p>
+          <p>
+            <a class="btn" href="mail:secretaria.galileo@gmail.com" aria-label="secretaria.galileo@gmail.com">Escribir a Secretaría</a>
+          </p>
+        </article>
+        <aside class="card" aria-label="Redes y mapa">
+          <h4 class="section-title">Redes sociales</h4>
+          <p>
+            <a href="https://www.facebook.com/galileogalilei5/?locale=es_LA" aria-label="Facebook">Facebook</a> ·
+            <a href="https://www.youtube.com/@Galileo5" aria-label="Youtube">Youtube</a> ·
+            <a href="https://www.instagram.com/cegg.n5/" aria-label="instagram">instagram</a>
+
+      
+          </p>
+          <div style="border-radius:14px;overflow:hidden;border:1px solid #ffffff14">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.354955504898!2d-58.57541312426133!3d-34.56988407296647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9ebb51c7879%3A0x3b78e67d33509bd5!2sEscuela%20de%20Educaci%C3%B3n%20Secundaria%20T%C3%A9cnica%20N%C2%B0%205%20%22Galileo%20Galilei%22!5e0!3m2!1ses!2sar!4v1758059762821!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <p>© <span id="year"></span> EEST N°5 “Galileo Galilei”. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  
+</body>
+</html>
